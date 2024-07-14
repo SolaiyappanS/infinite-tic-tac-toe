@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  background-color: #212121;
+  color: #fff;
+}
+
+.heading {
+  font-size: 4vh;
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.top-center {
+  position: absolute;
+  display: inline-block;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+#gameBoard {
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.gameBox {
+  display: inline-block;
+  width: 12vh;
+  height: 12vh;
+  text-align: center;
+  font-size: 9vh;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.5vh;
+  border: 0.25vh solid #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#gameBox_0_0,
+#gameBox_0_1,
+#gameBox_0_2 {
+  border-top: none;
+}
+
+#gameBox_0_0,
+#gameBox_1_0,
+#gameBox_2_0 {
+  border-left: none;
+}
+
+#gameBox_0_2,
+#gameBox_1_2,
+#gameBox_2_2 {
+  border-right: none;
+}
+
+#gameBox_2_0,
+#gameBox_2_1,
+#gameBox_2_2 {
+  border-bottom: none;
+}

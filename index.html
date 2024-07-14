@@ -5,26 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Infinite Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="main.js"></script>
   </head>
   <body>
     <p class="heading top-center">Infinite Tic Tac Toe</p>
     <div id="gameBoard">
       <div class="gameRow">
-        <div id="gameBox_0_0" class="gameBox">O</div>
-        <div id="gameBox_0_1" class="gameBox">X</div>
-        <div id="gameBox_0_2" class="gameBox">O</div>
+        <div id="gameCell_0_0" class="gameCell" onclick="pickCell(0,0)">
+          &nbsp;
+        </div>
+        <div id="gameCell_0_1" class="gameCell" onclick="pickCell(0,1)">
+          &nbsp;
+        </div>
+        <div id="gameCell_0_2" class="gameCell" onclick="pickCell(0,2)">
+          &nbsp;
+        </div>
       </div>
       <div class="gameRow">
-        <div id="gameBox_1_0" class="gameBox">O</div>
-        <div id="gameBox_1_1" class="gameBox">X</div>
-        <div id="gameBox_1_2" class="gameBox">O</div>
+        <div id="gameCell_1_0" class="gameCell" onclick="pickCell(1,0)">
+          &nbsp;
+        </div>
+        <div id="gameCell_1_1" class="gameCell" onclick="pickCell(1,1)">
+          &nbsp;
+        </div>
+        <div id="gameCell_1_2" class="gameCell" onclick="pickCell(1,2)">
+          &nbsp;
+        </div>
       </div>
       <div class="gameRow">
-        <div id="gameBox_2_0" class="gameBox">X</div>
-        <div id="gameBox_2_1" class="gameBox">O</div>
-        <div id="gameBox_2_2" class="gameBox">X</div>
+        <div id="gameCell_2_0" class="gameCell" onclick="pickCell(2,0)">
+          &nbsp;
+        </div>
+        <div id="gameCell_2_1" class="gameCell" onclick="pickCell(2,1)">
+          &nbsp;
+        </div>
+        <div id="gameCell_2_2" class="gameCell" onclick="pickCell(2,2)">
+          &nbsp;
+        </div>
       </div>
     </div>
+    <p class="heading bottom-center" onclick="refreshBoard()">Refresh Game</p>
   </body>
 </html>

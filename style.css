@@ -23,6 +23,16 @@ body {
   text-align: center;
 }
 
+.bottom-center {
+  position: absolute;
+  display: inline-block;
+  bottom: 30vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
 #gameBoard {
   position: absolute;
   top: 20vh;
@@ -32,7 +42,7 @@ body {
   text-align: center;
 }
 
-.gameBox {
+.gameCell {
   display: inline-block;
   width: 12vh;
   height: 12vh;
@@ -46,28 +56,29 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  cursor: pointer;
 }
 
-#gameBox_0_0,
-#gameBox_0_1,
-#gameBox_0_2 {
+#gameCell_0_0,
+#gameCell_0_1,
+#gameCell_0_2 {
   border-top: none;
 }
 
-#gameBox_0_0,
-#gameBox_1_0,
-#gameBox_2_0 {
+#gameCell_0_0,
+#gameCell_1_0,
+#gameCell_2_0 {
   border-left: none;
 }
 
-#gameBox_0_2,
-#gameBox_1_2,
-#gameBox_2_2 {
+#gameCell_0_2,
+#gameCell_1_2,
+#gameCell_2_2 {
   border-right: none;
 }
 
-#gameBox_2_0,
-#gameBox_2_1,
-#gameBox_2_2 {
+#gameCell_2_0,
+#gameCell_2_1,
+#gameCell_2_2 {
   border-bottom: none;
 }

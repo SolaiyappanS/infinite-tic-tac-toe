@@ -203,10 +203,10 @@ const checkGameWin = () => {
   }
   if (gameWin) {
     for (var i = 0; i < 3; i++) {
-      $(`#gameCell_${gameWinCells[i][0]}_${gameWinCells[i][1]}`).css(
-        "textShadow",
-        `0 0 1.75vh ${winColor}`
-      );
+      $(`#gameCell_${gameWinCells[i][0]}_${gameWinCells[i][1]}`).css({
+        color: "white",
+        textShadow: `0 0 1.5vh ${winColor}`,
+      });
     }
   }
 };

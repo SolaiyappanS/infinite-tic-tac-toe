@@ -23,19 +23,20 @@ body {
   text-align: center;
 }
 
-.bottom-center {
+.top-center-2 {
   position: absolute;
   display: inline-block;
-  bottom: 30vh;
+  top: 17.5vh;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
+  opacity: 0.3;
 }
 
 #gameBoard {
   position: absolute;
-  top: 20vh;
+  top: 30vh;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;

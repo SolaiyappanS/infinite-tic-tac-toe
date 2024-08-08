@@ -11,9 +11,6 @@ body {
   font-family: "Unica One", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.top-center {
   position: absolute;
   display: inline-block;
   top: 10vh;
@@ -23,7 +20,11 @@ body {
   text-align: center;
 }
 
-.top-center-2 {
+.refreshBtn {
+  font-size: 4vh;
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   position: absolute;
   display: inline-block;
   top: 17.5vh;
@@ -32,6 +33,7 @@ body {
   width: 100%;
   text-align: center;
   opacity: 0.3;
+  cursor: pointer;
 }
 
 #gameBoard {

@@ -113,7 +113,7 @@ const refreshBoard = () => {
   }
   $("#refreshBtn").css({
     opacity: canRefresh ? "1" : "0.3",
-    textShadow: "none",
+    color: "#fff",
   });
 };
 
@@ -148,7 +148,7 @@ const checkGameWin = () => {
     }
     $("#refreshBtn").css({
       opacity: canRefresh ? "1" : "0.3",
-      textShadow: `0 0 5px ${winColor}, 0 0 10px ${winColor}, 0 0 20px ${winColor}, 0 0 40px #fff`,
+      color: winColor,
     });
   }
 };

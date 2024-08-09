@@ -109,6 +109,7 @@ const refreshBoard = () => {
     ];
     canRefresh = false;
     gameWin = false;
+    blocked_cell = [-1, -1];
   }
   $("#refreshBtn").css({
     opacity: canRefresh ? "1" : "0.3",
